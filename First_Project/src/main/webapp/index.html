@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #222;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        /* Home Section */
+        .home {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+        }
+
+        .home h1 {
+            font-size: 50px;
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .home p {
+            font-size: 20px;
+            color: #666;
+        }
+
+        /* Profile */
+        .profile {
+            padding: 80px;
+            text-align: center;
+        }
+
+        .profile h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        /* Contact */
+        .contact {
+            padding: 80px;
+            text-align: center;
+            background-color: #eee;
+        }
+
+        .contact h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            My Website
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="home">
+
+        <div>
+            <h1>Welcome Home</h1>
+            <p>Welcome to my beautiful frontend website.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Profile -->
+    <section id="profile" class="profile">
+
+        <h2>Profile</h2>
+        <p>
+            Hello! My name is Mohit.
+            Welcome to my profile page.
+        </p>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact</h2>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+
+    </section>
+
+</body>
+</html>
